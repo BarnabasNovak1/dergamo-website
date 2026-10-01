@@ -4,6 +4,7 @@ import { Menu, X, ChevronDown, Linkedin, Youtube } from 'lucide-react';
 
 const projects = [
   { path: '/projects/classmt', label: 'ClassMT', desc: 'AI Study Platform' },
+  { path: '/projects/parkandbarn', label: 'ParkandBarn', desc: 'Offline Budgeting App' },
   { path: '/projects/framedeer', label: 'FrameDeer', desc: 'Creative Tools' },
   { path: '/projects/penultimatehub', label: 'PenultimateHub', desc: 'YouTube Channel' },
 ];

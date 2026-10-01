@@ -6,6 +6,7 @@ import Projects from './pages/Projects';
 import Merch from './pages/Merch';
 import About from './pages/About';
 import ClassMT from './pages/projects/ClassMT';
+import ParkandBarn from './pages/projects/ParkandBarn';
 import FrameDeer from './pages/projects/FrameDeer';
 import PenultimateHub from './pages/projects/PenultimateHub';
 import ThankYou from './pages/ThankYou';
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/classmt" element={<ClassMT />} />
+            <Route path="/projects/parkandbarn" element={<ParkandBarn />} />
             <Route path="/projects/framedeer" element={<FrameDeer />} />
             <Route path="/projects/penultimatehub" element={<PenultimateHub />} />
             <Route path="/merch" element={<Merch />} />

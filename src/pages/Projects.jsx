@@ -14,6 +14,16 @@ const projects = [
     color: '#38BDF8',
   },
   {
+    id: 'parkandbarn',
+    name: 'ParkandBarn',
+    logo: '/parkandbarn-logo.png',
+    tagline: 'The fully offline budgeting app',
+    description: 'A fully offline budgeting assistant. Import bank statements, categorize spending, and reconcile against your own Excel workbook, all on your machine, forever.',
+    link: '/projects/parkandbarn',
+    external: 'https://parkandbarn.com',
+    color: '#3fb083',
+  },
+  {
     id: 'framedeer',
     name: 'FrameDeer',
     logo: '/framedeer-transparent.png',
@@ -114,7 +124,7 @@ export default function Projects() {
                         width: '140px',
                         height: '140px',
                         objectFit: 'contain',
-                        transform: project.id !== 'classmt' ? 'scale(2)' : 'none'
+                        transform: (project.id !== 'classmt' && project.id !== 'parkandbarn') ? 'scale(2)' : 'none'
                       }}
                     />
                   </div>

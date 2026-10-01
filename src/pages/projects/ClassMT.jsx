@@ -22,15 +22,15 @@ const TikTokIcon = () => (
 );
 
 const features = [
-  { icon: MessageSquare, title: 'Customizable Chat AI', description: 'Pick personalities or tailor your own prompts to shape tone, depth, and teaching style — from friendly coach to academic expert.' },
+  { icon: MessageSquare, title: 'Customizable Chat AI', description: 'Pick personalities or tailor your own prompts to shape tone, depth, and teaching style, from friendly coach to academic expert.' },
   { icon: FileText, title: 'AI Summarizer', description: 'Turn pages of notes into precise, meaningful summaries. Keep every key insight, lose the fluff.' },
   { icon: Layers, title: 'Instant Flashcards', description: 'Auto-generate flashcards from your text or notes. Study smarter with adaptive recall and spaced repetition built in.' },
   { icon: HelpCircle, title: 'Quiz Generator', description: 'Transform your material into interactive quizzes with hints and detailed explanations to sharpen comprehension.' },
-  { icon: Briefcase, title: 'Career Launchpad', description: 'Build resumes, generate LinkedIn posts, prep interviews, and explore career matches — all powered by your own achievements.' },
+  { icon: Briefcase, title: 'Career Launchpad', description: 'Build resumes, generate LinkedIn posts, prep interviews, and explore career matches, all powered by your own achievements.' },
   { icon: Users, title: 'Study Feed', description: 'Share and discover study challenges created by the community. Join quizzes, flashcard sets, and compete on leaderboards with fellow learners.' },
   { icon: Mic, title: 'Audio to Text Transcription', description: 'Upload audio and get a full transcript. Free: not available. Basic: 30m/mo • Advanced: 100m/mo • Pro: 300m/mo. Only text is saved, not your audio file.' },
   { icon: Bookmark, title: 'My Saves', description: 'Keep your Summaries, Flashcards, Quizzes, and Career Plans neatly organized and ready to pick up where you left off.' },
-  { icon: Trophy, title: 'Motivation Engine', description: 'Earn streaks, XP, and achievements that reflect real progress — because growth feels better when you can see it.' },
+  { icon: Trophy, title: 'Motivation Engine', description: 'Earn streaks, XP, and achievements that reflect real progress, because growth feels better when you can see it.' },
 ];
 
 export default function ClassMT() {
